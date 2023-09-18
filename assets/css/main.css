@@ -174,7 +174,6 @@ a:hover {
       -ms-flex-pack: justify;
           justify-content: space-between;
   min-height: 840px;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(11.98%, #242B33), color-stop(51.04%, rgba(45, 52, 60, 0.38)), color-stop(92.19%, #242B33)), url("./../../../assets/img/header/header-bg.jpg"), lightgray 50%/cover no-repeat;
   background: linear-gradient(180deg, #242B33 11.98%, rgba(45, 52, 60, 0.38) 51.04%, #242B33 92.19%), url("./../../../assets/img/header/header-bg.jpg"), lightgray 50%/cover no-repeat;
 }
 @media screen and (max-width: 959px) {
@@ -459,7 +458,6 @@ a:hover {
   width: 100%;
   height: 100%;
   background-color: rgba(86, 86, 86, 0.8);
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(36, 43, 51, 0)), to(#242B33));
   background: linear-gradient(180deg, rgba(36, 43, 51, 0) 0%, #242B33 100%);
   z-index: 6;
 }
@@ -512,7 +510,6 @@ a:hover {
 
 .cta {
   padding: 180px 0px;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(11.98%, #242B33), color-stop(51.04%, rgba(36, 43, 51, 0.9)), color-stop(92.19%, #242B33)), url("./../../../assets/img/cta/bg.jpg"), lightgray 50%/cover no-repeat;
   background: linear-gradient(180deg, #242B33 11.98%, rgba(36, 43, 51, 0.9) 51.04%, #242B33 92.19%), url("./../../../assets/img/cta/bg.jpg"), lightgray 50%/cover no-repeat;
 }
 @media screen and (max-width: 959px) {
