@@ -1,0 +1,36 @@
+.section-map {
+     padding: 180px 0px;
+     position: relative;
+     &::before {
+          content: "V";
+          opacity: 0.02;
+
+          position: absolute;
+          top: 180px;
+          right: calc(50% + 555px);
+          transform: translateX(50%);
+          line-height: 1.15;
+
+
+          font-size: 400px;
+          font-family: $font-accent;
+          z-index: -1;
+          line-height: 1;
+     }
+
+     @include mediaTablet {
+          padding: 90px 0px;
+     }
+}
+.section-map__title {
+     margin-bottom: 88px;
+     @include mediaTablet {
+          margin-bottom: 44px;
+     }
+}
+
+.section-map__map {
+     height: 358px;
+     background-color: #626262;
+}
+

@@ -1,0 +1,19 @@
+
+
+.footer__nav--list {
+     display: flex;
+     flex-direction: column;
+     row-gap: 15px;
+     font-size: 14px;
+     letter-spacing: 0.7px;
+
+     & li span {
+          color: $accent;
+          cursor: pointer;
+     }
+}
+
+.socials {
+     display: flex;
+     column-gap: 18px;
+}

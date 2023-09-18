@@ -1,0 +1,50 @@
+
+.form__input {
+     height: 50px;
+     padding: 12px;
+     text-align: center;
+     background-color: rgba(255,255,255,0.2);
+     color: $white;
+     font-size: 14px;
+     transition: background-color 0.2s ease-in;
+
+     &::placeholder {
+          color: #BEBEBE;
+          font-size: 14px;
+     }
+
+     &:focus {
+          background-color: rgba(255,255,255,0.25);
+     }
+}
+
+
+
+.form__privacy {
+     font-size: 13px;
+     color: #E7E7E7;
+     line-height: 1.23;
+     text-align: center;
+
+     &--bottom {
+          @include mediaTablet {
+               grid-row: 4/5;
+          }
+     }
+}
+
+.form__button {
+     height: 50px;
+     font-size: 16px;
+     color: $white;
+     font-weight: 700;
+     text-align: center;
+     padding: 12px;
+     font-style: normal;
+     background-color: $accent;
+     transition: background-color 0.2s ease-in;
+}
+
+.form__button:hover {
+     background-color: saturate($accent, 10%);  
+}
